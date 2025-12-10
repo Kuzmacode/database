@@ -10,10 +10,19 @@
     }
   ],
   "partners": [],
-  "resellers": [],
+  "resellers": [
+    {
+      "username": "test",
+      "password": "669772",
+      "created_by": "Kuzma_code",
+      "created_date": "2025-12-10 04:25:56",
+      "telegram_id": 8389175465,
+      "id": 2
+    }
+  ],
   "metadata": {
-    "last_updated": "2025-12-10T04:22:47.043Z",
-    "total_accounts": 1,
+    "last_updated": "2025-12-10T04:25:57.586Z",
+    "total_accounts": 2,
     "password_info": {
       "length": 6,
       "charset": "123456789",
