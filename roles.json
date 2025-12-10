@@ -1,7 +1,5 @@
 {
-  "owners": [],
-  "partners": [],
-  "resellers": [
+  "owners": [
     {
       "username": "admin2",
       "password": "193792",
@@ -11,8 +9,10 @@
       "id": 1
     }
   ],
+  "partners": [],
+  "resellers": [],
   "metadata": {
-    "last_updated": "2025-12-10T02:56:45.636Z",
+    "last_updated": "2025-12-10T02:59:57.842Z",
     "total_accounts": 1,
     "password_info": {
       "length": 6,
