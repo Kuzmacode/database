@@ -1,5 +1,73 @@
 {
-  "owners": ["kuzma-code", "admin1"],
-  "partners": ["partner1", "partner2"],
-  "resellers": ["reseller1", "reseller2", "reseller3"]
+  "owners": [
+    {
+      "username": "kuzma-code",
+      "password": "123456",
+      "created_by": "System Admin",
+      "created_date": "2024-01-15T09:00:00.000Z",
+      "telegram_id": 123456789,
+      "id": 1
+    },
+    {
+      "username": "admin1",
+      "password": "789123",
+      "created_by": "John Doe",
+      "created_date": "2024-01-15T09:30:00.000Z",
+      "telegram_id": 987654321,
+      "id": 2
+    }
+  ],
+  "partners": [
+    {
+      "username": "partner1",
+      "password": "456789",
+      "created_by": "kuzma-code",
+      "created_date": "2024-01-15T10:00:00.000Z",
+      "telegram_id": 555555555,
+      "id": 3
+    },
+    {
+      "username": "partner2",
+      "password": "987654",
+      "created_by": "System Admin",
+      "created_date": "2024-01-15T10:15:00.000Z",
+      "telegram_id": 666666666,
+      "id": 4
+    }
+  ],
+  "resellers": [
+    {
+      "username": "reseller1",
+      "password": "321987",
+      "created_by": "partner1",
+      "created_date": "2024-01-15T10:30:00.000Z",
+      "telegram_id": 777777777,
+      "id": 5
+    },
+    {
+      "username": "reseller2",
+      "password": "654321",
+      "created_by": "partner1",
+      "created_date": "2024-01-15T10:45:00.000Z",
+      "telegram_id": 888888888,
+      "id": 6
+    },
+    {
+      "username": "reseller3",
+      "password": "789456",
+      "created_by": "partner2",
+      "created_date": "2024-01-15T11:00:00.000Z",
+      "telegram_id": 999999999,
+      "id": 7
+    }
+  ],
+  "metadata": {
+    "last_updated": "2024-01-15T11:30:00.000Z",
+    "total_accounts": 7,
+    "password_info": {
+      "length": 6,
+      "charset": "123456789",
+      "note": "Password hanya angka 1-9 (tanpa 0)"
+    }
+  }
 }
